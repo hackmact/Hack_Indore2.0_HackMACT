@@ -17,6 +17,14 @@ It is an android app which lets the user takethe pic of some garbage and classif
 Technologies Used:
 
 ML:
-1. Fastai is 
+1. Fastai is used to do image classification, it is a wrapper on Pytorch
+2. A pretrained ResNet-32 model was used for transfer learning and training of a CNN.
+3. The classifier distinguishes the images as solid and dry waste and given the processed nature of solid waste it can further classify which type of solid waste is present like solid_plastic or metal or cardboard or paper etc.
+4. The images were resized to 348*512 size and they were augmented to increase the quality of dataset.
+
+Android App:
+
+Flask was used to create APIs to integrate ML model into the android application and to get relevant knowledge about garbage from web using 'googlesearch' API.
+
 
 
