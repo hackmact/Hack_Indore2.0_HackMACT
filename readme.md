@@ -26,5 +26,8 @@ Android App:
 
 Flask was used to create APIs to integrate ML model into the android application and to get relevant knowledge about garbage from web using 'googlesearch' API.
 
+Solutions for Waste Management:
+Scrapper1/Scrapper2 are used to get the progresive solutions for the waste management/disposal techniques for the predicted type of waste.
+
 
 
