@@ -18,7 +18,7 @@ Technologies Used:
 
 ML:
 1. Fastai is used to do image classification, it is a wrapper on Pytorch
-2. A pretrained ResNet-32 model was used for transfer learning and training of a CNN.
+2. A pretrained ResNet-32 model was used for transfer learning and training of a CNN which received a test set accuracy of 99.8% by using 50:25:25 train, validity, testing data split to do hyperparameter tuning.
 3. The classifier distinguishes the images as solid and dry waste and given the processed nature of solid waste it can further classify which type of solid waste is present like solid_plastic or metal or cardboard or paper etc.
 4. The images were resized to 348*512 size and they were augmented to increase the quality of dataset.
 
